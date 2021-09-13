@@ -1,0 +1,60 @@
+
+/* Class = "NSTextFieldCell"; title = "$Table View Cell$"; ObjectID = "2O9-Dw-xW5"; */
+"2O9-Dw-xW5.title" = "$Table View Cell$";
+
+/* Class = "NSToolbarItem"; label = "Edit"; ObjectID = "K4p-FY-ukK"; */
+"K4p-FY-ukK.label" = "Edit";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Edit"; ObjectID = "K4p-FY-ukK"; */
+"K4p-FY-ukK.paletteLabel" = "Edit";
+
+/* Class = "NSMenuItem"; title = "URL"; ObjectID = "OKc-L1-xeN"; */
+"OKc-L1-xeN.title" = "URL";
+
+/* Class = "NSMenuItem"; title = "All Fields"; ObjectID = "Rap-Sd-PD3"; */
+"Rap-Sd-PD3.title" = "All Fields";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "All Fields"; ObjectID = "VtE-i4-Jhf"; */
+"VtE-i4-Jhf.placeholderString" = "All Fields";
+
+/* Class = "NSMenuItem"; title = "Account"; ObjectID = "WcB-jt-sTF"; */
+"WcB-jt-sTF.title" = "Account";
+
+/* Class = "NSToolbarItem"; label = "Add"; ObjectID = "cYf-we-aNG"; */
+"cYf-we-aNG.label" = "Add";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Add"; ObjectID = "cYf-we-aNG"; */
+"cYf-we-aNG.paletteLabel" = "Add";
+
+/* Class = "NSMenuItem"; title = "Notes"; ObjectID = "d9J-7Y-zk5"; */
+"d9J-7Y-zk5.title" = "Notes";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "edk-WR-P3c"; */
+"edk-WR-P3c.title" = "Table View Cell";
+
+/* Class = "NSMenuItem"; title = "Name"; ObjectID = "hYJ-fS-edi"; */
+"hYJ-fS-edi.title" = "Name";
+
+/* Class = "NSToolbarItem"; label = "Search"; ObjectID = "hee-Ve-m1U"; */
+"hee-Ve-m1U.label" = "Search";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Search"; ObjectID = "hee-Ve-m1U"; */
+"hee-Ve-m1U.paletteLabel" = "Search";
+
+/* Class = "NSToolbarItem"; label = "Delete"; ObjectID = "iSN-sM-SLb"; */
+"iSN-sM-SLb.label" = "Delete";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Delete"; ObjectID = "iSN-sM-SLb"; */
+"iSN-sM-SLb.paletteLabel" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "laZ-pf-OKd"; */
+"laZ-pf-OKd.headerCell.title" = "Name";
+
+/* Class = "NSMenuItem"; title = "Category"; ObjectID = "r5e-FG-dLI"; */
+"r5e-FG-dLI.title" = "Category";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "xOd-HO-29H"; */
+"xOd-HO-29H.title" = "Window";
+
+/* Class = "NSTableColumn"; headerCell.title = "Account"; ObjectID = "zQW-dL-Z4L"; */
+"zQW-dL-Z4L.headerCell.title" = "Account";

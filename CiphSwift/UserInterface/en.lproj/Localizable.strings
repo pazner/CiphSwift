@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  English
+  CiphSwift
+*/
+
+"Edit Entry Named (Filename)" = "Edit Entry %@ (%@)";
+
+"Edit Entry (Filename)" = "Edit Entry (%@)";
+
+"New Entry (Filename)" = "New Entry (%@)";
+
+"Save Message" = "Do you want to save your changes to this entry?";
+
+"Discard Message" = "If you discard your changes, this cannot be undone.";
+
+"Empty Passphrase" = "Passphrase must be non-empty.";
+
+"Non-matching Passphrase" = "Passphrases do not match.";
+
+"Enter Passphrase" = "Enter Passphrase";
+
+"Enter Passphrase Protecting" = "Enter the passphrase used to protect this file";
+
+"Enter Passphrase for Filename" = "Enter Passphrase for %@";
+
+"Enter Passphrase Protecting Filename" = "Enter the passphrase used to protect %@";
+
+"Save Changes" = "Save Changes";
+
+"Don't Save" = "Don't Save";
+
+"Cancel" = "Cancel";
+
+"1 item" = "1 item";
+
+"1 item, 1 selected" = "1 item, 1 selected";
+
+"N items" = "%d items";
+
+"N items, 1 selected" = "%d items, 1 selected";
+
+"N items, M selected" = "%d items, %d selected";

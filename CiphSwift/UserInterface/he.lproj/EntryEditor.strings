@@ -1,0 +1,27 @@
+
+/* Class = "NSTextFieldCell"; title = "Account:"; ObjectID = "9cZ-Zh-Sdl"; */
+"9cZ-Zh-Sdl.title" = "חשבון:";
+
+/* Class = "NSTextFieldCell"; title = "URL:"; ObjectID = "GXY-OX-MjE"; */
+"GXY-OX-MjE.title" = "כתובת אתר:";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "H59-3S-q2C"; */
+"H59-3S-q2C.title" = "שם:";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "IVF-OJ-z1d"; */
+"IVF-OJ-z1d.title" = "שמור";
+
+/* Class = "NSTextFieldCell"; title = "Category:"; ObjectID = "JDK-Q8-2hV"; */
+"JDK-Q8-2hV.title" = "קטגוריה:";
+
+/* Class = "NSWindow"; title = "$Window$"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "$Window$";
+
+/* Class = "NSTextFieldCell"; title = "Notes:"; ObjectID = "dtt-55-rRM"; */
+"dtt-55-rRM.title" = "הערות:";
+
+/* Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "qv1-Uv-4lk"; */
+"qv1-Uv-4lk.title" = "סיסמה:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "xdT-tm-gNN"; */
+"xdT-tm-gNN.title" = "ביטול";

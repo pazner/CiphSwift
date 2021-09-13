@@ -1,0 +1,20 @@
+/* Class = "NSTextFieldCell"; title = "$Status text$"; ObjectID = "Jtq-4K-aX5"; */
+"Jtq-4K-aX5.title" = "$Status text$";
+
+/* Class = "NSButtonCell"; title = "Select Passphrase"; ObjectID = "4pt-U7-6hI"; */
+"4pt-U7-6hI.title" = "בחר משפט סיסמה";
+
+/* Class = "NSWindow"; title = "Choose Passphrase"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "בחר משפט סיסמה";
+
+/* Class = "NSButtonCell"; title = "Show Passphrase"; ObjectID = "KjJ-aQ-dsT"; */
+"KjJ-aQ-dsT.title" = "הראה משפט סיסמה";
+
+/* Class = "NSTextFieldCell"; title = "Enter a new passphrase to protect this document:"; ObjectID = "QS7-Nt-OD0"; */
+"QS7-Nt-OD0.title" = "הזן משפט סיסמה חדש להגן על מסמך זה:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "dNL-JP-aYI"; */
+"dNL-JP-aYI.title" = "ביטול";
+
+/* Class = "NSTextFieldCell"; title = "Confirm your passphrase:"; ObjectID = "vRp-cU-Sjg"; */
+"vRp-cU-Sjg.title" = "אשר משפט סיסמה:";

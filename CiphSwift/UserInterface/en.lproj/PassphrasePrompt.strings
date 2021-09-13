@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "$Enter the passphrase used to protect filename.csd$"; ObjectID = "BCJ-ES-OGf"; */
+"BCJ-ES-OGf.title" = "$Enter the passphrase used to protect filename.csd$";
+
+/* Class = "NSWindow"; title = "$Enter Passphrase for filename.csd$"; ObjectID = "MlN-0H-VYD"; */
+"MlN-0H-VYD.title" = "$Enter Passphrase for filename.csd$";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "RWd-Iy-zgZ"; */
+"RWd-Iy-zgZ.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Open"; ObjectID = "Tgg-Pv-PN8"; */
+"Tgg-Pv-PN8.title" = "Open";
+
+/* Class = "NSTextFieldCell"; title = "Enter the passphrase used to protect this document:"; ObjectID = "epc-CJ-J0Z"; */
+"epc-CJ-J0Z.title" = "Enter the passphrase used to protect this document:";

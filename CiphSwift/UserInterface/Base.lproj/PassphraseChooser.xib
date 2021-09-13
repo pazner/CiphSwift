@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ChoosePassphraseController" customModule="CiphSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="cleartextConfirmField" destination="aDA-JL-UbF" id="zxK-lO-p1k"/>
+                <outlet property="cleartextPassphraseField" destination="pLD-iE-8kR" id="Eok-bb-5Ls"/>
+                <outlet property="confirmField" destination="xQM-XD-ejb" id="Jzo-NB-glF"/>
+                <outlet property="passphraseField" destination="4cE-z7-JbD" id="IRB-Cn-5L5"/>
+                <outlet property="showPassphrase" destination="JAA-WR-zz9" id="sgf-zx-TbQ"/>
+                <outlet property="statusText" destination="S9u-yh-Yag" id="V5x-nd-38P"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Choose Passphrase" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5" userLabel="Passphrase Chooser">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="195"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1792" height="1097"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="195"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HKO-7K-1EY">
+                        <rect key="frame" x="18" y="159" width="444" height="16"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Enter a new passphrase to protect this document:" id="QS7-Nt-OD0">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VDZ-0e-UVx">
+                        <rect key="frame" x="18" y="106" width="444" height="16"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Confirm your passphrase:" id="vRp-cU-Sjg">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4cE-z7-JbD">
+                        <rect key="frame" x="20" y="130" width="440" height="21"/>
+                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="VsN-TT-GRB">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="passphraseValue" id="Hdo-WS-6bt"/>
+                            </connections>
+                        </secureTextFieldCell>
+                    </secureTextField>
+                    <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xQM-XD-ejb">
+                        <rect key="frame" x="20" y="77" width="440" height="21"/>
+                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="MUM-PN-vhm">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="confirmValue" id="tyF-g7-DRg"/>
+                            </connections>
+                        </secureTextFieldCell>
+                    </secureTextField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZSG-EN-uYP">
+                        <rect key="frame" x="314" y="13" width="152" height="32"/>
+                        <buttonCell key="cell" type="push" title="Select Passphrase" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4pt-U7-6hI">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="select:" target="-2" id="YtT-5I-iki"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JAA-WR-zz9">
+                        <rect key="frame" x="18" y="21" width="129" height="18"/>
+                        <buttonCell key="cell" type="check" title="Show Passphrase" bezelStyle="regularSquare" imagePosition="left" inset="2" id="KjJ-aQ-dsT">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="toggleShowPassphrase:" target="-2" id="DhG-JH-e8h"/>
+                        </connections>
+                    </button>
+                    <textField hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pLD-iE-8kR" userLabel="Cleartext Passphrase Field">
+                        <rect key="frame" x="20" y="130" width="440" height="21"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="o5G-ig-d8S">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="passphraseValue" id="UnW-SZ-kDk"/>
+                            </connections>
+                        </textFieldCell>
+                    </textField>
+                    <textField hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aDA-JL-UbF" userLabel="Cleartext Confirm Field">
+                        <rect key="frame" x="20" y="77" width="440" height="21"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="CjR-n5-jZa">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                            <connections>
+                                <binding destination="-2" name="value" keyPath="confirmValue" id="aOX-P4-efH"/>
+                            </connections>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="S9u-yh-Yag">
+                        <rect key="frame" x="18" y="53" width="444" height="16"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="$Status text$" id="Jtq-4K-aX5">
+                            <font key="font" metaFont="systemBold"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WrT-mI-yTg">
+                        <rect key="frame" x="232" y="13" width="82" height="32"/>
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dNL-JP-aYI">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="cancel:" target="-2" id="Ffc-t2-JeE"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aDA-JL-UbF" firstAttribute="leading" secondItem="xQM-XD-ejb" secondAttribute="leading" id="5OA-Fy-hLr"/>
+                    <constraint firstItem="xQM-XD-ejb" firstAttribute="leading" secondItem="VDZ-0e-UVx" secondAttribute="leading" id="81z-E7-wW3"/>
+                    <constraint firstAttribute="trailing" secondItem="VDZ-0e-UVx" secondAttribute="trailing" constant="20" id="9kK-TP-V9g"/>
+                    <constraint firstItem="JAA-WR-zz9" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="BGA-Fe-dne"/>
+                    <constraint firstItem="pLD-iE-8kR" firstAttribute="trailing" secondItem="4cE-z7-JbD" secondAttribute="trailing" id="C3g-bG-1dk"/>
+                    <constraint firstItem="JAA-WR-zz9" firstAttribute="top" secondItem="S9u-yh-Yag" secondAttribute="bottom" constant="16" id="C9g-Rt-csr"/>
+                    <constraint firstItem="WrT-mI-yTg" firstAttribute="centerY" secondItem="JAA-WR-zz9" secondAttribute="centerY" id="CHR-oe-UDa"/>
+                    <constraint firstItem="xQM-XD-ejb" firstAttribute="top" secondItem="VDZ-0e-UVx" secondAttribute="bottom" constant="8" id="Fb8-fu-wkc"/>
+                    <constraint firstItem="S9u-yh-Yag" firstAttribute="top" secondItem="aDA-JL-UbF" secondAttribute="bottom" constant="8" id="GQA-Sz-tja"/>
+                    <constraint firstItem="pLD-iE-8kR" firstAttribute="leading" secondItem="4cE-z7-JbD" secondAttribute="leading" id="Ggz-Cs-375"/>
+                    <constraint firstItem="aDA-JL-UbF" firstAttribute="centerY" secondItem="xQM-XD-ejb" secondAttribute="centerY" id="KaP-pj-g0j"/>
+                    <constraint firstItem="pLD-iE-8kR" firstAttribute="centerY" secondItem="4cE-z7-JbD" secondAttribute="centerY" id="Nsz-fo-GEk"/>
+                    <constraint firstItem="HKO-7K-1EY" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="Ozd-9f-UtE"/>
+                    <constraint firstAttribute="trailing" secondItem="S9u-yh-Yag" secondAttribute="trailing" constant="20" id="Reg-6j-7Te"/>
+                    <constraint firstItem="WrT-mI-yTg" firstAttribute="leading" secondItem="JAA-WR-zz9" secondAttribute="trailing" constant="93" id="SAz-mS-2hr"/>
+                    <constraint firstItem="VDZ-0e-UVx" firstAttribute="top" secondItem="4cE-z7-JbD" secondAttribute="bottom" constant="8" id="SDL-yM-rQ9"/>
+                    <constraint firstItem="HKO-7K-1EY" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="20" id="Sx1-EH-Sc1"/>
+                    <constraint firstItem="4cE-z7-JbD" firstAttribute="top" secondItem="HKO-7K-1EY" secondAttribute="bottom" constant="8" id="U7Z-O4-rbN"/>
+                    <constraint firstAttribute="trailing" secondItem="HKO-7K-1EY" secondAttribute="trailing" constant="20" id="U7u-Ba-53G"/>
+                    <constraint firstItem="xQM-XD-ejb" firstAttribute="trailing" secondItem="4cE-z7-JbD" secondAttribute="trailing" id="VNA-OR-tVF"/>
+                    <constraint firstAttribute="trailing" secondItem="4cE-z7-JbD" secondAttribute="trailing" constant="20" id="Y62-NV-aqr"/>
+                    <constraint firstItem="aDA-JL-UbF" firstAttribute="trailing" secondItem="xQM-XD-ejb" secondAttribute="trailing" id="ayo-zA-ejO"/>
+                    <constraint firstItem="JAA-WR-zz9" firstAttribute="leading" secondItem="xQM-XD-ejb" secondAttribute="leading" id="del-4Z-cVF"/>
+                    <constraint firstItem="4cE-z7-JbD" firstAttribute="leading" secondItem="HKO-7K-1EY" secondAttribute="leading" id="iu8-C5-dAE"/>
+                    <constraint firstItem="ZSG-EN-uYP" firstAttribute="centerY" secondItem="WrT-mI-yTg" secondAttribute="centerY" id="kXQ-Yq-uCi"/>
+                    <constraint firstItem="S9u-yh-Yag" firstAttribute="leading" secondItem="aDA-JL-UbF" secondAttribute="leading" id="nR9-c3-loL"/>
+                    <constraint firstItem="VDZ-0e-UVx" firstAttribute="leading" secondItem="4cE-z7-JbD" secondAttribute="leading" id="tQ8-pz-MKS"/>
+                    <constraint firstItem="ZSG-EN-uYP" firstAttribute="leading" secondItem="WrT-mI-yTg" secondAttribute="trailing" constant="12" id="xkq-E4-yTo"/>
+                    <constraint firstAttribute="trailing" secondItem="ZSG-EN-uYP" secondAttribute="trailing" constant="20" id="y40-Kw-i7D"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="233" y="1.5"/>
+        </window>
+    </objects>
+</document>

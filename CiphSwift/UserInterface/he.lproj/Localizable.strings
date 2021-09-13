@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Hebrew
+  CiphSwift
+*/
+
+"Edit Entry Named (Filename)" = "עריכת  %@ (%@)";
+
+"Edit Entry (Filename)" = "עריכת רשומה (%@)";
+
+"New Entry (Filename)" = "רשומה חדשה (%@)";
+
+"Save Message" = "האם ברצונך לשמור את השינויים לרשומה זו?";
+
+"Discard Message" = "לא ניתן לבטל פעולה זו.";
+
+"Empty Passphrase" = "משפט הסיסמה לא יכול להיות ריק.";
+
+"Non-matching Passphrase" = "הסיסמאות לא מותאמות.";
+
+"Enter Passphrase" = "נא להזין משפט סיסמה";
+
+"Enter Passphrase Protecting" = "נא להזין את משפט הסיסמה שמגן על קובץ זה.";
+
+"Enter Passphrase for Filename" = "הזן את משפט הסיסמה עבור %@.";
+
+"Enter Passphrase Protecting Filename" = "נא להזין את משפט הסיסמה שמגן על %@.";
+
+"Save Changes" = "שמור שינויים";
+
+"Don't Save" = "אל תשמור";
+
+"Cancel" = "ביטול";
+
+"1 item" = "רשומה 1";
+
+"1 item, 1 selected" = "רשומה 1, 1 נבחר";
+
+"N items" = "%d רשומות";
+
+"N items, 1 selected" = "%d רשומות,1 נבחרה";
+
+"N items, M selected" = "%d רשומות, %d נבחרו";
+ 
